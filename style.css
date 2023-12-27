@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+}
+h1{
+    font-size: 48px;
+}
+div{
+    padding: none;
+    border: none;
+    margin: none;
+}
+div.bottom-level{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow
+}
+div#board{
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+div.top-level{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+}
+span.circle{
+    width: 90px;
+    height: 90px;
+    padding: none;
+    border: none;
+    margin: none;
+    background-color: lightgrey;
+    border-radius: 50%;
+    display: inline-block;
+}
